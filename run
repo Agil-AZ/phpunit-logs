@@ -1,3 +1,2 @@
 phpunit
 ./link_with_xsl build/logs/junit.xml
-./link_with_xsl build/logs/clover.xml

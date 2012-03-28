@@ -7,8 +7,11 @@
 >
 
 	<testsuites>
-		<testsuite name="All Tests">
-			<directory suffix="Test.php">test</directory>
+		<testsuite name="Number Tests">
+			<directory suffix="NTest.php">test</directory>
+		</testsuite>
+		<testsuite name="Character Tests">
+			<directory suffix="CTest.php">test</directory>
 		</testsuite>
 	</testsuites>
 
