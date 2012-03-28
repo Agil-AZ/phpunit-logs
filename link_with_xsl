@@ -1,0 +1,16 @@
+if [[ "$#" != "1" ]]
+then
+	echo "Syntax of command: $0 <input_file>"
+	exit 1
+fi
+
+input_file=$1
+file_name=`echo $input_file | awk 'BEGIN {FS = "/"} {print $NF}' | awk 'BEGIN {FS = "."} {print $1}'`
+
+temp_file=tempFile3148o76234890
+
+head -n 1 $input_file >> $temp_file
+echo "<?xml-stylesheet href=\"$file_name.xsl\" type=\"text/xsl\"?>" >> $temp_file
+tail -n +2 $input_file >> $temp_file
+
+mv $temp_file $input_file
