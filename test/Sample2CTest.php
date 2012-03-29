@@ -2,12 +2,12 @@
 
 	class Sample2CTest extends PHPUnit_Framework_TestCase 
 	{
-		public function test_aTrivialTest() 
+		public function test2C_1() 
 		{
 			$this->assertTrue(true);
 		}
 
-		public function testComparesNumbers()
+		public function test2C_2()
     	{
         	$this->assertTrue(1 == 1);
     	}
