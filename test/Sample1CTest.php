@@ -4,7 +4,7 @@
 	{
 		public function test1C_1() 
 		{
-			$this->assertTrue(true);
+			$this->assertTrue(false);
 		}
 
 		public function test1C_2()
