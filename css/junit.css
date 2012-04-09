@@ -3,18 +3,23 @@ body
 	font-family: arial;
 }
 
-h1{display: inline; font-size: 2em;}
-h2{display: inline; font-size: 1.6em;}
-h3{display: inline; font-size: 1.5em;}
-h4{display: inline; font-size: 1.2em;}
-h5{display: inline; font-size: 1em;}
-h6{display: inline; font-size: 0.8em;}
+h1,h2,h3,h4,h5,h6,p
+{
+	display: inline;
+}
 
-p{color: #222; display: inline; font-size: 1.2em;}
+h1{font-size: 1.3em;}
+h2{font-size: 1.2em;}
+h3{font-size: 1.1em;}
+h4{font-size: 1em;}
+h5{font-size: 0.9em;}
+h6{font-size: 0.8em;}
+
+p{color: #222; font-size: 1em;}
 
 table#alltests
 {
-	color: #111;
+	color: #000;
 	width: 100%;
 }
 
@@ -25,7 +30,7 @@ table#alltests tr.fail
 
 table#alltests tr.nofail 
 {
-	background-color: #bfb;
+	background-color: #dfd;
 }
 
 table#alltests th
@@ -42,37 +47,35 @@ table#alltests td
 
 table#typetests
 {
-	color: #333;
-	margin: 2%;
-	width: 96%;
+	margin: 1%;
+	width: 98%;
 }
 
 table#typetests tr.fail 
 {
-	background-color: #fbb;
+	background-color: #faa;
 }
 
 table#typetests tr.nofail 
 {
-	background-color: #cfc;
+	background-color: #bfb;
 }
 
 table#tests
 {
-	background-color: #bfb;
-	color: #000;
-	margin: 2%;
-	width: 96%;
+	background-color: #dfd;
+	margin: 1%;
+	width: 98%;
 }
 
 table#tests tr.fail 
 {
-	background-color: #bfb;
+	background-color: #faa;
 }
 
 table#tests tr.nofail 
 {
-	background-color: #fbb;
+	background-color: #afa;
 }
 
 pre
