@@ -3,25 +3,29 @@ body
 	font-family: arial;
 }
 
-h1{font-size: 3em;}
-h2{font-size: 2em;}
-h3{font-size: 1.5em;}
-h4{font-size: 1.2em;}
+h1{display: inline; font-size: 2em;}
+h2{display: inline; font-size: 1.6em;}
+h3{display: inline; font-size: 1.5em;}
+h4{display: inline; font-size: 1.2em;}
+h5{display: inline; font-size: 1em;}
+h6{display: inline; font-size: 0.8em;}
+
+p{color: #222; display: inline; font-size: 1.2em;}
 
 table#alltests
 {
-	color: #fff;
-	width: 800px;
+	color: #111;
+	width: 100%;
 }
 
 table#alltests tr.fail
 {
-	background-color: #500;
+	background-color: #fdd;
 }
 
 table#alltests tr.nofail 
 {
-	background-color: #030;
+	background-color: #bfb;
 }
 
 table#alltests th
@@ -32,29 +36,54 @@ table#alltests th
 
 table#alltests td
 {
-	border: 1px solid #fff;
-	text-align: center;
+	border: 1px solid #111;
+	text-align: left;
 }
 
 table#typetests
 {
-	color: #fff;
-	width: 100%;
+	color: #333;
+	margin: 1em;
+	width: 96%;
 }
 
 table#typetests tr.fail 
 {
-	background-color: #800;
+	background-color: #fbb;
 }
 
 table#typetests tr.nofail 
 {
-	background-color: #060;
+	background-color: #cfc;
 }
 
 table#tests
 {
-	background-color: #090;
+	background-color: #bfb;
 	color: #000;
-	width: 100%;
+	margin: 1em;
+	width: 96%;
 }
+
+table#tests tr.fail 
+{
+	background-color: #bfb;
+}
+
+table#tests tr.nofail 
+{
+	background-color: #fbb;
+}
+
+pre
+{
+	background-color: #ccc;
+	border: 1px solid #111;
+	margin: 0em 0.6em 0.6em 0.6em;
+}
+
+/*
+#fdd
+failed #fbb
+passed #cfc;
+skipped #777;

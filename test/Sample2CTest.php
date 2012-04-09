@@ -11,4 +11,9 @@
     	{
         	$this->assertTrue(1 == 1);
     	}
+
+    	public function testError()
+    	{
+    		throw new Exception();
+    	}
 	}
