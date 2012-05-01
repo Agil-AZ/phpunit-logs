@@ -1,85 +1,62 @@
-body
-{
-	font-family: arial;
-}
+body { font-family: arial; }
 
-h1,h2,h3,h4,h5,h6,p
-{
-	display: inline;
-}
+h1,h2,h3,h4,h5,h6,p { display: inline; }
 
-h1{font-size: 1.3em;}
-h2{font-size: 1.2em;}
-h3{font-size: 1.1em;}
-h4{font-size: 1em;}
-h5{font-size: 0.9em;}
-h6{font-size: 0.8em;}
+h1 { font-size: 1.3em; }
+h2 { font-size: 1.2em; }
+h3 { font-size: 1.1em; }
+h4 { font-size: 1em; }
+h5 { font-size: 0.9em; }
+h6 { font-size: 0.8em; }
 
-p{color: #222; font-size: 1em;}
+p { color: #222; font-size: 1em; }
 
-table#alltests
-{
+table#alltests {
 	color: #000;
 	width: 100%;
 }
 
-table#alltests tr.fail
-{
+table#alltests tr.fail {
 	background-color: #fdd;
 }
 
-table#alltests tr.nofail 
-{
+table#alltests tr.nofail, table#tests {
 	background-color: #dfd;
 }
 
-table#alltests th
-{
+table#alltests th {
 	border: 1px solid #fff;
 	width: 160px;
 }
 
-table#alltests td
-{
+table#alltests td {
 	border: 1px solid #111;
 	text-align: left;
 }
 
-table#typetests
-{
+table#typetests {
 	margin: 1%;
 	width: 98%;
 }
 
-table#typetests tr.fail 
-{
-	background-color: #faa;
-}
-
-table#typetests tr.nofail 
-{
+table#typetests tr.nofail {
 	background-color: #bfb;
 }
 
-table#tests
-{
-	background-color: #dfd;
+table#tests {
 	margin: 1%;
 	width: 98%;
 }
 
-table#tests tr.fail 
-{
+table#typetests tr.fail , table#tests tr.fail {
 	background-color: #faa;
 }
 
-table#tests tr.nofail 
-{
+table#tests tr.nofail {
 	background-color: #afa;
 }
 
-pre
-{
+pre {
 	background-color: #ccc;
 	border: 1px solid #111;
 	margin: 0em 0.6em 0.6em 0.6em;
